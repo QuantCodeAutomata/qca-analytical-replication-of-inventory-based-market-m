@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+*.env
+.venv/
+venv/
+.idea/
+.vscode/
+*.DS_Store
+
+# Raw market data / API dumps — never commit
+*.csv.gz
+data/*.csv
+data/*.parquet
+data/*.json
+
+# Large binary outputs — keep results/ pngs but not numpy archives
+*.npz
+*.npy
